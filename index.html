@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Zaratec - Servicio Técnico</title>
+  <link rel="icon" href="./img/favicon.png">
+</head>
+
+<body>
+  <nav class="navbar">
+    
+    <!-- Logo -->
+    <div class="logo"><img src="./img/logo.png" alt=""></div>
+    
+    <!-- Barra de navegación -->
+    <ul class="nav-links">
+      
+      <!-- Menú "Hamburguer" -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      
+      <!-- Menú de navegación -->
+      <div class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="./pages/nosotros.html">Nosotros</a></li>
+        <li class="servicios">
+          <a href="./pages/servicios.html">Servicios</a>
+          
+          <!-- Menú "dropdown" -->
+          <ul class="dropdown">
+            <li><a href="/">Dropdown 1 </a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 3</a></li>
+            <li><a href="/">Dropdown 4</a></li>
+          </ul>
+        </li>
+        <li><a href="./pages/ubicacion.html">Ubicación</a></li>
+        <li><a href="./pages/contacto.html">Contacto</a></li>
+      </div>
+    </ul>
+  </nav>
+  <main>
+
+    <!-- Título -->
+    <section class="titulo">
+      <h1>Servicio Técnico de PC y Notebook</h1>
+    </section>
+
+    <!-- Imagen con efecto Parallax -->
+    <div class="parallax"></div>
+    
+    <!-- Información del servicio -->
+    <p class="descripcion">Contamos con personal altamente cualificado con más de 10 años de experiencia en
+      instalación, mantenimiento y reparación de PCs y Notebooks</p>
+    
+    <!-- Servicios -->
+      <div class="container">
+      <article class="article">
+        <h2>Soluciones de Software:</h2>
+        <p>Instalación y configuración de sistemas operativos.</p>
+        <p>Instalación de programas para diseño, dibujo, ofimática, internet, etc.</p>
+        <p>Limpieza de virus, malware y programas peligrosos.</p>
+      </article>
+      <img class="solutions" src="/img/software.png" alt="">
+      <article class="article">
+        <h2>Soluciones de Hardware:</h2>
+        <p>Armado a medida de PC.</p>
+        <p>Actualización y reemplazo de componentes.</p>
+        <p>Colocación o cambio de discos duros/SSD para PCs, Notebooks y AIOs.</p>
+        <p>Limpieza y mantenimiento interno.</p>
+      </article>
+      <img class="solutions" src="/img/hardware.png" alt="">
+    </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="pie">
+    <p><b>Enlaces rápidos:</b></p>
+    <div class="foot"><a href="index.html">Inicio</a></div>
+    <div class="foot"><a href="./pages/nosotros.html">Nosotros</a></div>
+    <div class="foot"><a href="./pages/ubicacion.html">Ubicación</a></div>
+    <div class="foot"><a href="./pages/servicios.html">Preguntas</a></div>
+    <div class="foot"><a href="./pages/contacto.html">Contacto</a></div>
+  </footer>
+</body>
+
+</html>

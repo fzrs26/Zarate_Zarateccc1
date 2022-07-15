@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaratec</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../img/favicon.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+    
+            <!-- Logo -->
+            <div class="logo"><img src="../img/logo.png" alt=""></div>
+            
+            <!-- Barra de navegación -->
+            <ul class="nav-links">
+              
+              <!-- Menú "Hamburguer" -->
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              
+              <!-- Menú de navegación -->
+              <div class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li class="servicios">
+                  <a href="../pages/servicios.html">Servicios</a>
+                  
+                  <!-- Menú "dropdown" -->
+                  <ul class="dropdown">
+                    <li><a href="/">Dropdown 1 </a></li>
+                    <li><a href="/">Dropdown 2</a></li>
+                    <li><a href="/">Dropdown 2</a></li>
+                    <li><a href="/">Dropdown 3</a></li>
+                    <li><a href="/">Dropdown 4</a></li>
+                  </ul>
+                </li>
+                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+              </div>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        
+            
+            <section class="titulo">
+            <h1>Contactanos</h1>
+        </section>
+
+            <div class="parallax"></div>
+            <p class="descripcion">Contamos con personal altamente cualificado con más de 10 años de experiencia en
+                instalación, mantenimiento y reparación de PCs y Notebooks</p>
+                <article class="article">
+                    <h1>Contacto</h1>
+                    <form action="">
+                        <fieldset>
+                            <legend>Completa el formulario y nos contactaremos a la brevedad</legend>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="Nombre" placeholder="Ingresa tu nombre" required>
+                            <br>
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" name="apellido" id="Apellido" placeholder="ingresa tu apellido" requiered>
+                            <br>
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" name="correo" id="correo" placeholder="Ingresa tu mail" required>
+                            <br>
+                            <label for="consulta">Consulta:</label>
+                            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                            <br>
+                            <div>
+                                <p>¿Deseas recibir el newsletter?</p>
+                            </div>
+                            <input type="checkbox" name="cbox 1">Si, recibir el newsletter de la empresa.
+                            <br>
+                            <br>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpiar el formulario">
+                        </fieldset>
+                    </form>
+                </article>
+                
+        </section>
+    </main>
+    <footer class="pie">
+        <p><b>Enlaces rápidos:</b></p>
+        <div class="foot"><a href="../index.html">Inicio</a></div>
+        <div class="foot"><a href="../pages/nosotros.html">Nosotros</a></div>
+        <div class="foot"><a href="../pages/ubicacion.html">Ubicación</a></div>
+        <div class="foot"><a href="../pages/servicios.html">Preguntas</a></div>
+        <div class="foot"><a href="../pages/contacto.html">Contacto</a></div>
+      </footer> 
+</body>
+</html>
